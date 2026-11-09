@@ -1,0 +1,248 @@
+/* TAS Mock — 2018 FRC Game Manual layout clone (WeasyPrint) */
+
+@page {
+  size: Letter;
+  margin: 1in 1in 1.1in 1in;
+  @bottom-center {
+    content: string(section-label) "\A" string(section-ver);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #004b86;
+    white-space: pre;
+    text-align: center;
+  }
+  @bottom-right {
+    content: counter(page) " of " counter(pages);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #004b86;
+  }
+  @bottom-left {
+    content: "TAS MOCK · NOT OFFICIAL";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7pt;
+    color: #767171;
+  }
+}
+
+@page :first {
+  margin: 1in;
+  @bottom-left { content: none; }
+  @bottom-center { content: none; }
+  @bottom-right { content: none; }
+}
+
+@page trademark {
+  @bottom-left { content: none; }
+}
+
+body {
+  font-family: Arial, Helvetica, "Liberation Sans", sans-serif;
+  font-size: 10pt;
+  line-height: 1.35;
+  color: #000;
+}
+
+a { color: #004b86; }
+
+/* Cover — white, 2018-like */
+.cover-page {
+  page: first;
+  page-break-after: always;
+  text-align: left;
+  min-height: 9in;
+}
+.cover-mock-strip {
+  border: 2px solid #c00;
+  background: #fff8f8;
+  color: #8b0000;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 12px;
+  margin-bottom: 2.5in;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.cover-title {
+  font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
+  font-size: 28pt;
+  font-weight: bold;
+  color: #004b86;
+  line-height: 1.15;
+  margin: 0 0 0.35in 0;
+}
+.cover-subtitle {
+  font-size: 14pt;
+  color: #004b86;
+  margin-bottom: 1.5in;
+}
+.cover-meta {
+  font-size: 10pt;
+  color: #333;
+  line-height: 1.5;
+}
+.trademark-page {
+  page: trademark;
+  page-break-after: always;
+  font-size: 8pt;
+  line-height: 1.45;
+  color: #333;
+}
+
+h1 {
+  string-set: section-label " ", section-ver "TAS-MOCK-V1";
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 18pt;
+  font-weight: bold;
+  color: #004b86;
+  margin: 0 0 12pt 0;
+  page-break-after: avoid;
+}
+h1.introduction { string-set: section-label "Section 1 Introduction", section-ver "TAS-MOCK-V1"; }
+h1.overview { string-set: section-label "Section 2 Overview", section-ver "V0"; }
+h1.arcade { string-set: section-label "Section 3 ARCADE", section-ver "V2"; }
+h1.matchplay { string-set: section-label "Section 4 MATCH Play", section-ver "V4"; }
+h1.safety { string-set: section-label "Section 5 Safety Rules", section-ver "V5"; }
+h1.conduct { string-set: section-label "Section 6 Conduct Rules", section-ver "V6"; }
+h1.gamerules { string-set: section-label "Section 7 Game Rules", section-ver "V8"; }
+h1.robotrules { string-set: section-label "Section 8 ROBOT Rules", section-ver "V11"; }
+h1.inspection { string-set: section-label "Section 9 Inspection & Eligibility", section-ver "V9"; }
+h1.tournaments { string-set: section-label "Section 10 Tournaments", section-ver "V10"; }
+h1.glossary { string-set: section-label "Section 11 Glossary", section-ver "V11"; }
+h1.appendix { string-set: section-label "Appendix", section-ver "TAS-MOCK-V1"; }
+
+h2 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #004b86;
+  margin: 14pt 0 8pt 0;
+  page-break-after: avoid;
+}
+h3 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #004b86;
+  text-transform: uppercase;
+  margin: 12pt 0 6pt 0;
+}
+
+.no-counter { counter-increment: none; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9.5pt;
+  margin: 8pt 0 12pt 0;
+}
+th {
+  background: #e8f0f8;
+  color: #004b86;
+  font-weight: bold;
+  border: 1px solid #99b4cc;
+  padding: 4px 6px;
+  text-align: left;
+}
+td {
+  border: 1px solid #ccc;
+  padding: 4px 6px;
+  vertical-align: top;
+}
+
+/* Official-style rules */
+.rule-block { margin: 8pt 0 10pt 0; page-break-inside: avoid; }
+.rule-id {
+  font-weight: bold;
+  color: #003259;
+}
+.rule-headline {
+  font-weight: bold;
+  color: #004b86;
+}
+.rule-violation, p.violation {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 10pt;
+  color: #767171;
+  margin: 4pt 0 0 0;
+}
+.rule-source {
+  font-size: 9pt;
+  color: #555;
+  margin-top: 4pt;
+}
+
+/* Legacy rule-box — flatten to official look */
+.rule-box {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 8pt 0 10pt 0;
+  page-break-inside: avoid;
+}
+.rule-box .rule-id {
+  display: inline;
+  font-weight: bold;
+  color: #003259;
+}
+.rule-box .rule-violation {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  color: #767171;
+}
+.rule-box .rule-source { font-size: 9pt; color: #555; }
+
+.blue-box, blockquote.mock-notice {
+  border: 1px solid #99b4cc;
+  background: #f0f6fc;
+  padding: 8px 10px;
+  margin: 10pt 0;
+  font-size: 9.5pt;
+  color: #222;
+}
+blockquote.mock-notice { border-left: 4px solid #004b86; }
+blockquote.fiction, .fiction {
+  border-color: #999;
+  background: #f5f5f5;
+}
+
+.team-update {
+  border: 2px solid #004b86;
+  padding: 12px 14px;
+  margin: 14pt 0;
+  background: #fafcff;
+  page-break-inside: avoid;
+}
+.team-update h2 {
+  font-size: 12pt;
+  margin-top: 0;
+}
+
+.figure-box {
+  border: 1px dashed #99b4cc;
+  padding: 10px;
+  margin: 10pt 0;
+  font-size: 9pt;
+  color: #444;
+  background: #fafafa;
+}
+
+.page-break {
+  page-break-after: always;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.toc { font-size: 10pt; line-height: 1.5; }
+.toc ul { list-style: none; padding-left: 0; }
+.toc li { margin: 2pt 0; }
+
+.vol-banner { display: none; }
+.cover-page.old { display: none; }
+
+h1.unnumbered { string-set: section-label "Contents", section-ver ""; }

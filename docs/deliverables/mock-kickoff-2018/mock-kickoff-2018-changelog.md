@@ -1,0 +1,14 @@
+# Changelog — mock kickoff 2018 packet
+
+## TAS-MOCK-V1 (2026-11-09)
+
+- Restructured to official **2018 manual §1–§11** layout (no Vol I/II/III).
+- White cover, Arial/blue typography per template spec.
+- Match envelope (R03–R05, G05) under **§8.2**; game rules **§7**.
+- **2026 §8** construction graft; **§1.7** mock Team Update for 2027 Part 1.
+- Removed facilitator study appendices from student PDF.
+- PDF: 46 pages (WeasyPrint, Letter).
+
+## V0 (2026-11-09) — superseded
+
+- Three-volume custom layout; rejected for not matching 2018 manual clone.
