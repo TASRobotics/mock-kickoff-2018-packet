@@ -230,6 +230,20 @@ blockquote.fiction, .fiction {
   background: #fafafa;
 }
 
+.figure-box img, img.figure {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 6pt auto;
+}
+.figure-box figcaption, .figure-caption {
+  font-size: 8.5pt;
+  color: #004b86;
+  font-weight: bold;
+  margin-top: 4pt;
+  text-align: center;
+}
+
 .page-break {
   page-break-after: always;
   height: 0;

@@ -171,9 +171,17 @@ Just before AUTO, the Field Management System (FMS) randomly assigns which PLATE
 
 # 3 ARCADE {.arcade}
 
+<div class="figure-box">
+<img src="figures/elements-overview.png" alt="Game elements overview" />
+<div class="figure-caption">Figure 3-0: POWER UP game elements at a glance (TAS mock — not official FIRST artwork)</div>
+</div>
+
 The ARCADE is everything needed to play the game: the FIELD, the SWITCHES, the SCALE, the VAULTS, the carpet, the POWER CUBES and the field electronics. The real manual stresses that its dimensions are **nominal**: fields are assembled by different crews in different venues, and good robots are designed to tolerate small variations. The official 2018 field drawings and CAD are the reference for exact values.
 
-<div class="figure-box">Figure 3-1 (placeholder): FIRST POWER UP playing area, isometric view. See 2018 manual Section 3, Figure 3-1.</div>
+<div class="figure-box">
+<img src="figures/field-topdown-apriltags-fiction.png" alt="Field top view with fiction AprilTag IDs" />
+<div class="figure-caption">Figure 3-1: Playing area top view with TAS fiction AprilTag IDs 1–32 (Appendix B). Nominal 2018 layout; tag positions schematic only.</div>
+</div>
 
 ## 3.1 Zones and markings {.no-counter}
 
@@ -218,7 +226,10 @@ At the start of a MATCH the PLATES are level, with their outside edges **5 ft (6
 
 The manual warns that equal cube counts do not guarantee balance: where cubes sit on a PLATE changes the torque. A cube placed at the outer end of a PLATE is worth more tilt than a cube near the tower.
 
-<div class="figure-box">Figures 3-4 to 3-8 (placeholders): SCALE overview, BRICKS, range of motion, PLATE and wall dimensions. See 2018 manual §3.3.</div>
+<div class="figure-box">
+<img src="figures/element-scale-heights.png" alt="SCALE plate height bands" />
+<div class="figure-caption">Figure 3-4: SCALE ownership bands by outside plate edge height (Table 3-2) and RUNG at 84 in.</div>
+</div>
 
 **RUNGS.** At the top of the SCALE are two RUNGS, one per alliance, each reaching into that alliance's PLATFORM ZONE. A RUNG is a **1 ft 1 in. (13 in.) long, 1¼ in. Schedule 40 aluminium pipe**, extending **8¼ in.** from the vertical face of the SCALE supports. The **top of the RUNG is 7 ft (84 in.)** above the carpet.
 
@@ -228,7 +239,10 @@ The manual warns that equal cube counts do not guarantee balance: where cubes si
 
 **PLATFORM.** At the base of the SCALE, on each alliance's side, is a PLATFORM covered in alliance-coloured HDPE. Its top is **8 ft 8 in. wide × 3 ft 5¼ in. deep** and **3½ in. tall**, with ramps **1 ft 1 in.** long at **15.35°**. The alliance-coloured tape that abuts the ramps counts as part of the PLATFORM.
 
-<div class="figure-box">Figures 3-9 to 3-12 (placeholders): RUNGS, TOWER dimensions, PLATFORM top and ramp. See 2018 manual §3.3.</div>
+<div class="figure-box">
+<img src="figures/element-platform-rung.png" alt="Platform and rung side view" />
+<div class="figure-caption">Figure 3-9: PLATFORM (3.5 in.) and RUNG height — side schematic. G05 ENDGAME exemption in PLATFORM ZONE.</div>
+</div>
 
 ## 3.4 SWITCH {.no-counter}
 
@@ -247,7 +261,10 @@ There are **two SWITCHES**, one per alliance, each centred across the field widt
 
 <blockquote class="mock-notice"><strong>Teaching trap — 9 in. vs 18.75 in.</strong> The PLATE is 9 in. off the carpet, but the FENCE around it is 18.75 in. tall. The height your mechanism actually has to clear is the <strong>fence</strong>, plus the 13 × 13 × 11 in. cube you are holding. Students who design to "9 in." build robots that can't score on the SWITCH.</blockquote>
 
-<div class="figure-box">Figures 3-13 to 3-16 (placeholders): SWITCH, PLATE dimensions, range of motion, FENCE. See 2018 manual §3.4.</div>
+<div class="figure-box">
+<img src="figures/element-switch-crosssection.png" alt="Switch fence and plate heights" />
+<div class="figure-caption">Figure 3-13: SWITCH cross-section — 9 in. plate vs 18.75 in. fence (2018 §3.4).</div>
+</div>
 
 ## 3.5 PLATE lighting {.no-counter}
 
@@ -266,7 +283,10 @@ The ALLIANCE WALL separates the robots from the drive teams. It holds three PLAY
 
 **VAULT.** Behind the EXCHANGE, inside the ALLIANCE STATION. Three columns, each about **13½ in. wide × 39¼ in. tall**, bottom **15½ in.** off the floor. Facing the open columns from the ALLIANCE STATION: **FORCE** on the left, **LEVITATE** in the centre, **BOOST** on the right. Each column holds up to three cubes; a row of lights counts them, and a button plays the POWER UP. The manual advises placing cubes logo-side-down so three always fit and are sensed reliably.
 
-<div class="figure-box">Figures 3-18 to 3-20 (placeholders): ALLIANCE STATION, EXCHANGE, VAULT. See 2018 manual §3.6.</div>
+<div class="figure-box">
+<img src="figures/element-exchange-portal.png" alt="Exchange and portal openings" />
+<div class="figure-caption">Figure 3-18: EXCHANGE lower opening (16.25 in.) and RETURN (20 in.) vs PORTAL feed opening.</div>
+</div>
 
 ## 3.7 PORTAL {.no-counter}
 
@@ -276,7 +296,10 @@ Each alliance has two PORTALS, one at each corner of its end of the field. A HUM
 
 A POWER CUBE is a **13 in. × 13 in. × 11 in. tall** HDPE milk crate in a yellow nylon cover, with the FIRST logo over the open face. It weighs about **3¼ lb (1.5 kg)**. Cubes are soft-sided enough to squash slightly in a roller intake and stiff enough to stack.
 
-<div class="figure-box">Figure 3-22 (placeholder): POWER CUBE. See 2018 manual §3.8.</div>
+<div class="figure-box">
+<img src="figures/element-power-cube.png" alt="Power cube dimensions" />
+<div class="figure-caption">Figure 3-22: POWER CUBE 13 × 13 × 11 in. (nominal).</div>
+</div>
 
 ## 3.9 Vision targets {.no-counter}
 
@@ -843,7 +866,10 @@ These are deliberate discussion points, not errors to fix before the kickoff.
 3. **Inner SCALE tags carry little signal.** 17, 18, 21 and 22 sit near the pivot.
 4. **No coordinates.** Anyone building a layout file must survey positions from the official 2018 field drawings.
 
-<div class="figure-box">Figure B-1 (placeholder): top-down sketch of tag IDs 1–32 — students draw this themselves on a printed field outline. FICTION.</div>
+<div class="figure-box">
+<img src="figures/field-topdown-apriltags-fiction.png" alt="AprilTag field map fiction" />
+<div class="figure-caption">Figure B-1: Top-down field map with fiction AprilTag IDs 1–32. Grey = fixed; tan = moves with plate. **Not official.**</div>
+</div>
 
 <div class="page-break"></div>
 
