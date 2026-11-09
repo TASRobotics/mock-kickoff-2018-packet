@@ -172,15 +172,15 @@ Just before AUTO, the Field Management System (FMS) randomly assigns which PLATE
 # 3 ARCADE {.arcade}
 
 <div class="figure-box">
-<img src="figures/official/figure-2-1-playing-area.png" alt="Official playing area excerpt" />
-<div class="figure-caption">Figure 2-1 (excerpt): FIRST® POWER UP playing area — from 2018 Game Manual © FIRST. TAS mock classroom use only.</div>
+<img src="figures/official/figure-2-1-playing-area.jpg" alt="Official playing area excerpt" />
+<div class="figure-caption">Figure 2-1 (diagram, embedded JPEG): FIRST® POWER UP playing area — from 2018 Game Manual © FIRST. TAS mock classroom use only.</div>
 </div>
 
 The ARCADE is everything needed to play the game: the FIELD, the SWITCHES, the SCALE, the VAULTS, the carpet, the POWER CUBES and the field electronics. The real manual stresses that its dimensions are **nominal**: fields are assembled by different crews in different venues, and good robots are designed to tolerate small variations. The official 2018 field drawings and CAD are the reference for exact values.
 
 <div class="figure-box">
-<img src="figures/official/figure-3-1-playing-area.png" alt="Official field isometric" />
-<div class="figure-caption">Figure 3-1 (excerpt): ARCADE playing area — 2018 Game Manual © FIRST.</div>
+<img src="figures/official/figure-3-1-playing-area.jpg" alt="Official field isometric" />
+<div class="figure-caption">Figure 3-1 (diagram, embedded JPEG): ARCADE playing area — 2018 Game Manual © FIRST.</div>
 </div>
 
 ## 3.1 Zones and markings {.no-counter}
@@ -201,8 +201,8 @@ Zones are volumes on the FIELD, usually bounded by 2 in. gaffer tape, and are mo
 | STARTING LINE | White tape 2 ft 6 in. behind the ALLIANCE WALL diamond plate | Drive team positions before and during AUTO |
 
 <div class="figure-box">
-<img src="figures/official/figure-3-2-zones.png" alt="Zones and markings" />
-<div class="figure-caption">Figure 3-2 (excerpt): Zones and markings — 2018 Game Manual © FIRST.</div>
+<img src="figures/official/figure-3-2-zones.jpg" alt="Zones and markings" />
+<div class="figure-caption">Figure 3-2 (diagram, embedded JPEG): Zones and markings — 2018 Game Manual © FIRST.</div>
 </div>
 
 ## 3.2 FIELD {.no-counter}
@@ -230,12 +230,16 @@ At the start of a MATCH the PLATES are level, with their outside edges **5 ft (6
 The manual warns that equal cube counts do not guarantee balance: where cubes sit on a PLATE changes the torque. A cube placed at the outer end of a PLATE is worth more tilt than a cube near the tower.
 
 <div class="figure-box">
-<img src="figures/official/figure-3-4-scale.png" alt="SCALE" />
-<div class="figure-caption">Figure 3-4 (excerpt): The SCALE — 2018 Game Manual © FIRST. See also Figure 3-6 for range of motion.</div>
+<img src="figures/official/figure-3-4-scale.jpg" alt="SCALE" />
+<div class="figure-caption">Figure 3-4 (diagram, embedded JPEG): The SCALE — 2018 Game Manual © FIRST. See also Figure 3-6 for range of motion.</div>
 </div>
 <div class="figure-box">
-<img src="figures/official/figure-3-6-scale-motion.png" alt="SCALE motion" />
-<div class="figure-caption">Figure 3-6 (excerpt): SCALE range of motion — 2018 Game Manual © FIRST.</div>
+<img src="figures/official/figure-3-6-scale-motion.jpg" alt="SCALE motion" />
+<div class="figure-caption">Figure 3-6 (diagram, embedded JPEG): SCALE range of motion — 2018 Game Manual © FIRST.</div>
+</div>
+<div class="figure-box fiction">
+<img src="figures/tagged/figure-3-4-scale-apriltags.jpg" alt="SCALE fiction AprilTags" />
+<div class="figure-caption">TAS fiction: AprilTag IDs 17–28 on the SCALE (moving plate tags + fixed tower tags). <strong>Not official.</strong></div>
 </div>
 
 **RUNGS.** At the top of the SCALE are two RUNGS, one per alliance, each reaching into that alliance's PLATFORM ZONE. A RUNG is a **1 ft 1 in. (13 in.) long, 1¼ in. Schedule 40 aluminium pipe**, extending **8¼ in.** from the vertical face of the SCALE supports. The **top of the RUNG is 7 ft (84 in.)** above the carpet.
@@ -247,12 +251,12 @@ The manual warns that equal cube counts do not guarantee balance: where cubes si
 **PLATFORM.** At the base of the SCALE, on each alliance's side, is a PLATFORM covered in alliance-coloured HDPE. Its top is **8 ft 8 in. wide × 3 ft 5¼ in. deep** and **3½ in. tall**, with ramps **1 ft 1 in.** long at **15.35°**. The alliance-coloured tape that abuts the ramps counts as part of the PLATFORM.
 
 <div class="figure-box">
-<img src="figures/official/figure-3-9-rungs.png" alt="RUNGS" />
-<div class="figure-caption">Figure 3-9 (excerpt): RUNGS — 2018 Game Manual © FIRST.</div>
+<img src="figures/official/figure-3-9-rungs.jpg" alt="RUNGS" />
+<div class="figure-caption">Figure 3-9 (diagram, embedded JPEG): RUNGS — 2018 Game Manual © FIRST.</div>
 </div>
 <div class="figure-box">
-<img src="figures/official/figure-3-12-platform.png" alt="PLATFORM dimensions" />
-<div class="figure-caption">Figure 3-11–3-12 (excerpt): PLATFORM dimensions — 2018 Game Manual © FIRST.</div>
+<img src="figures/official/figure-3-12-platform.jpg" alt="PLATFORM dimensions" />
+<div class="figure-caption">Figure 3-11–3-12 (diagram, embedded JPEG): PLATFORM dimensions — 2018 Game Manual © FIRST.</div>
 </div>
 
 ## 3.4 SWITCH {.no-counter}
@@ -273,12 +277,20 @@ There are **two SWITCHES**, one per alliance, each centred across the field widt
 <blockquote class="mock-notice"><strong>Teaching trap — 9 in. vs 18.75 in.</strong> The PLATE is 9 in. off the carpet, but the FENCE around it is 18.75 in. tall. The height your mechanism actually has to clear is the <strong>fence</strong>, plus the 13 × 13 × 11 in. cube you are holding. Students who design to "9 in." build robots that can't score on the SWITCH.</blockquote>
 
 <div class="figure-box">
-<img src="figures/official/figure-3-13-switch.png" alt="SWITCH" />
-<div class="figure-caption">Figure 3-13 (excerpt): SWITCH — 2018 Game Manual © FIRST.</div>
+<img src="figures/official/figure-3-13-switch.jpg" alt="SWITCH" />
+<div class="figure-caption">Figure 3-13 (diagram, embedded JPEG): SWITCH — 2018 Game Manual © FIRST.</div>
 </div>
 <div class="figure-box">
-<img src="figures/official/figure-3-16-fence.png" alt="FENCE" />
-<div class="figure-caption">Figure 3-16 (excerpt): FENCE — 2018 Game Manual © FIRST.</div>
+<img src="figures/official/figure-3-16-fence.jpg" alt="FENCE" />
+<div class="figure-caption">Figure 3-16 (diagram, embedded JPEG): FENCE — 2018 Game Manual © FIRST.</div>
+</div>
+<div class="figure-box fiction">
+<img src="figures/tagged/figure-3-13-switch-apriltags.jpg" alt="SWITCH fiction AprilTags" />
+<div class="figure-caption">TAS fiction: Blue SWITCH IDs 1–8 (plate + fence). Red SWITCH uses IDs 9–16 (mirror layout). <strong>Not official.</strong></div>
+</div>
+<div class="figure-box fiction">
+<img src="figures/tagged/figure-3-16-fence-apriltags.jpg" alt="FENCE fiction AprilTags" />
+<div class="figure-caption">TAS fiction: fixed fence tags 5–8 at retro-tape height (compare Figure 3-23). <strong>Not official.</strong></div>
 </div>
 
 ## 3.5 PLATE lighting {.no-counter}
@@ -300,11 +312,15 @@ The ALLIANCE WALL separates the robots from the drive teams. It holds three PLAY
 
 <div class="figure-box">
 <img src="figures/official/figure-3-19-exchange.png" alt="EXCHANGE" />
-<div class="figure-caption">Figure 3-19 (excerpt): EXCHANGE — 2018 Game Manual © FIRST.</div>
+<div class="figure-caption">Figure 3-19 (diagram, embedded JPEG): EXCHANGE — 2018 Game Manual © FIRST.</div>
+</div>
+<div class="figure-box fiction">
+<img src="figures/tagged/figure-3-19-exchange-apriltags.jpg" alt="EXCHANGE fiction AprilTags" />
+<div class="figure-caption">TAS fiction: AprilTag IDs 29–30 at the Blue EXCHANGE (IDs 31–32 on Red). <strong>Not official.</strong></div>
 </div>
 <div class="figure-box">
-<img src="figures/official/figure-3-21-portal.png" alt="PORTAL" />
-<div class="figure-caption">Figure 3-21 (excerpt): PORTAL — 2018 Game Manual © FIRST.</div>
+<img src="figures/official/figure-3-21-portal.jpg" alt="PORTAL" />
+<div class="figure-caption">Figure 3-21 (diagram, embedded JPEG): PORTAL — 2018 Game Manual © FIRST.</div>
 </div>
 
 ## 3.7 PORTAL {.no-counter}
@@ -316,8 +332,8 @@ Each alliance has two PORTALS, one at each corner of its end of the field. A HUM
 A POWER CUBE is a **13 in. × 13 in. × 11 in. tall** HDPE milk crate in a yellow nylon cover, with the FIRST logo over the open face. It weighs about **3¼ lb (1.5 kg)**. Cubes are soft-sided enough to squash slightly in a roller intake and stiff enough to stack.
 
 <div class="figure-box">
-<img src="figures/official/figure-3-22-power-cube.png" alt="POWER CUBE" />
-<div class="figure-caption">Figure 3-22 (excerpt): POWER CUBE — 2018 Game Manual © FIRST.</div>
+<img src="figures/official/figure-3-22-power-cube.jpg" alt="POWER CUBE" />
+<div class="figure-caption">Figure 3-22 (diagram, embedded JPEG): POWER CUBE — 2018 Game Manual © FIRST.</div>
 </div>
 
 ## 3.9 Vision targets {.no-counter}
@@ -325,8 +341,12 @@ A POWER CUBE is a **13 in. × 13 in. × 11 in. tall** HDPE milk crate in a yello
 The real 2018 field had **retro-reflective tape**, not AprilTags. Each SWITCH FENCE carried targets on its faces toward the ALLIANCE WALLS, one per PLATE: two vertical 2 in. strips, 16 in. tall, 4 in. apart, with about 15.3 in. visible when viewed straight on, centred **51⅞ in.** from the centre of the SWITCH.
 
 <div class="figure-box">
-<img src="figures/official/figure-3-23-vision-targets.png" alt="Vision targets" />
-<div class="figure-caption">Figure 3-23 (excerpt): Vision target locations (retro-reflective tape) — 2018 Game Manual © FIRST.</div>
+<img src="figures/official/figure-3-23-vision-targets.jpg" alt="Vision targets" />
+<div class="figure-caption">Figure 3-23 (diagram, embedded JPEG): Vision target locations (retro-reflective tape) — 2018 Game Manual © FIRST.</div>
+</div>
+<div class="figure-box fiction">
+<img src="figures/tagged/figure-3-23-vision-targets-apriltags.jpg" alt="Vision fiction AprilTags" />
+<div class="figure-caption">TAS fiction: where fence tags 5–8 / 13–16 would sit relative to 2018 retro-tape (classroom comparison). <strong>Not official.</strong></div>
 </div>
 
 <blockquote class="mock-notice fiction"><strong>FICTION reminder.</strong> AprilTags did not exist on any 2018 field. Appendix B (fiction) gives a TAS-invented 32-tag layout so vision students share a vocabulary. It is never used at a real event and is not a hint about any future game.</blockquote>
@@ -890,9 +910,13 @@ These are deliberate discussion points, not errors to fix before the kickoff.
 3. **Inner SCALE tags carry little signal.** 17, 18, 21 and 22 sit near the pivot.
 4. **No coordinates.** Anyone building a layout file must survey positions from the official 2018 field drawings.
 
+<div class="figure-box fiction">
+<img src="figures/tagged/field-topdown-apriltags-on-official.jpg" alt="AprilTag field map on official zones drawing" />
+<div class="figure-caption">Figure B-1: Fiction AprilTag IDs 1–32 on the official zones top view (2018 manual excerpt). Leaders point from ID labels to tag locations. Grey = fixed; tan = moves with plate. <strong>Not official.</strong></div>
+</div>
 <div class="figure-box">
-<img src="figures/field-topdown-apriltags-fiction.png" alt="AprilTag field map fiction" />
-<div class="figure-caption">Figure B-1: Top-down field map with fiction AprilTag IDs 1–32. Grey = fixed; tan = moves with plate. **Not official.**</div>
+<img src="figures/field-topdown-apriltags-fiction.png" alt="Schematic AprilTag field map" />
+<div class="figure-caption">Figure B-2: Simplified schematic (not to scale) for whiteboard talks — same ID allocation as Table B-1.</div>
 </div>
 
 <div class="page-break"></div>

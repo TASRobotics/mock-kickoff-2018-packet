@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Render official 2018 FRC manual figure pages from blob PDF (team-use excerpt)."""
+"""Extract embedded diagram JPEGs from the official 2018 FRC manual PDF."""
+from __future__ import annotations
+
 from pathlib import Path
 
 import pymupdf
@@ -8,8 +10,8 @@ PDF = Path("/tmp/frc2018-manual-analysis/2018FRCGameSeasonManual.pdf")
 OUT = Path(__file__).parent / "figures" / "official"
 OUT.mkdir(parents=True, exist_ok=True)
 
-# Page numbers 1-based from pymupdf scan (Nov 2026)
-FIGURE_PAGES = {
+# 1-based PDF page → output stem (matches packet figure references)
+FIGURE_PAGES: dict[str, int] = {
     "figure-2-1-playing-area": 13,
     "figure-3-1-playing-area": 15,
     "figure-3-2-zones": 16,
@@ -26,19 +28,47 @@ FIGURE_PAGES = {
     "figure-3-23-vision-targets": 34,
 }
 
-MATRIX = pymupdf.Matrix(2.0, 2.0)  # ~144 dpi
-# Clip out footer/header band on Letter manual pages (pts)
-CLIP = pymupdf.Rect(54, 54, 558, 720)
+MIN_W, MIN_H = 350, 175
 
 
-def main():
+def diagram_images(page: pymupdf.Page) -> list[dict]:
+    cands: list[dict] = []
+    for info in page.get_image_info(xrefs=True):
+        w, h = info["width"], info["height"]
+        if w < MIN_W or h < MIN_H:
+            continue
+        if w > 1100 and h < 120:
+            continue
+        cands.append(info)
+    cands.sort(key=lambda i: i["width"] * i["height"], reverse=True)
+    return cands
+
+
+def save_xref(doc: pymupdf.Document, xref: int, path: Path) -> None:
+    blob = doc.extract_image(xref)
+    ext = blob["ext"]
+    data = blob["image"]
+    if ext in ("jpeg", "jpg"):
+        path = path.with_suffix(".jpg")
+    elif ext == "png":
+        path = path.with_suffix(".png")
+    else:
+        path = path.with_suffix(f".{ext}")
+    path.write_bytes(data)
+    print(path.name, len(data), ext, f"{blob.get('width')}x{blob.get('height')}")
+
+
+def main() -> None:
     doc = pymupdf.open(PDF)
     for name, pno in FIGURE_PAGES.items():
         page = doc[pno - 1]
-        pix = page.get_pixmap(matrix=MATRIX, clip=CLIP, alpha=False)
-        path = OUT / f"{name}.png"
-        pix.save(path)
-        print(path, pix.width, "x", pix.height)
+        cands = diagram_images(page)
+        if not cands:
+            print("WARN no image", name, "page", pno)
+            continue
+        save_xref(doc, cands[0]["xref"], OUT / name)
+        if len(cands) > 1 and cands[1]["width"] * cands[1]["height"] > MIN_W * MIN_H * 2:
+            save_xref(doc, cands[1]["xref"], OUT / f"{name}-detail")
     doc.close()
 
 

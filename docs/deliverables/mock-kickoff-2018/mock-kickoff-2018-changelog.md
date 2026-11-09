@@ -1,6 +1,7 @@
 # Changelog — mock kickoff 2018 packet
 
-## TAS-MOCK-V1 (2026-11-09)
+## TAS-MOCK-V1.1 — official diagram JPEG extracts; fiction AprilTag overlays on §3 + Appendix B
+TAS-MOCK-V1 (2026-11-09)
 
 - Restructured to official **2018 manual §1–§11** layout (no Vol I/II/III).
 - White cover, Arial/blue typography per template spec.
