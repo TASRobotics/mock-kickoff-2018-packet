@@ -9,7 +9,7 @@ lang: en-US
 
 <div class="cover-title">Mock Game &amp; Season Manual<br/>FIRST® POWER UP<sup>SM</sup></div>
 
-<div class="cover-subtitle">2018 game · 2026 robot construction · TAS-MOCK-V1 · 2026-11-09</div>
+<div class="cover-subtitle">2018 game · 2026 robot construction · TAS-MOCK-V1.2 · 2026-11-10</div>
 
 <div class="cover-meta">
 Prepared for Taipei American School (Trident Robotics) mock kickoff drill.<br/>

@@ -1,5 +1,11 @@
 # Changelog — mock kickoff 2018 packet
 
+## TAS-MOCK-V1.2 — reliable PDF build (embedded figures)
+
+- Added `build_packet_pdf.sh` (fixed cwd + pandoc `--resource-path`) and `verify_packet_pdf.py`.
+- Root cause: WeasyPrint from wrong directory → captions render, **no** `figures/` embeds (~170 KB PDF).
+- Rebuilt PDF with all official manual JPEGs + tagged overlays.
+
 ## TAS-MOCK-V1.1 — official diagram JPEG extracts; fiction AprilTag overlays on §3 + Appendix B
 TAS-MOCK-V1 (2026-11-09)
 
